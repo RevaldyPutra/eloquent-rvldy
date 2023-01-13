@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Show</title>
 </head>
 <body>
     <h1>Halaman Show Post</h1>
@@ -15,6 +15,9 @@
         
         <label for="InputBody">Nama Body</label>
         <input type="text" name="body" class="form-control" id="InputBody" value="{{ $showpostsById->body }}" disabled>   
+        <button>
+    <a class="create"href="/post">KEMBALI</a>
+ </button>
     </form>
 </body>
 </html>
